@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		2F04170529EDC91900AEA96A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F04170429EDC91900AEA96A /* AppDelegate.swift */; };
 		2F04170729EDC91900AEA96A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F04170629EDC91900AEA96A /* SceneDelegate.swift */; };
-		2F04170929EDC91900AEA96A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F04170829EDC91900AEA96A /* ViewController.swift */; };
 		2F04170C29EDC91900AEA96A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F04170A29EDC91900AEA96A /* Main.storyboard */; };
 		2F04170E29EDC91A00AEA96A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F04170D29EDC91A00AEA96A /* Assets.xcassets */; };
 		2F04171129EDC91A00AEA96A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F04170F29EDC91A00AEA96A /* LaunchScreen.storyboard */; };
+		2F04171E29EDC9FA00AEA96A /* MusicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F04171D29EDC9FA00AEA96A /* MusicTableViewController.swift */; };
+		2F04172129EDCA7300AEA96A /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F04172029EDCA7300AEA96A /* Music.swift */; };
+		2F04172329EDCADF00AEA96A /* Musicitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F04172229EDCADF00AEA96A /* Musicitem.swift */; };
+		2F5CE58929EE74BE00CC2329 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CE58829EE74BE00CC2329 /* MovieTableViewController.swift */; };
+		2F5CE58C29EE755C00CC2329 /* MovieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CE58B29EE755C00CC2329 /* MovieManager.swift */; };
+		2F5CE58F29EE7BED00CC2329 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CE58E29EE7BED00CC2329 /* Movie.swift */; };
+		2F5CE59229EE813700CC2329 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CE59129EE813700CC2329 /* MovieTableViewCell.swift */; };
+		2F5CE59429EEF8CF00CC2329 /* MovieInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CE59329EEF8CF00CC2329 /* MovieInfoViewController.swift */; };
+		2F5CE59729EF01F100CC2329 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CE59629EF01F100CC2329 /* AboutViewController.swift */; };
+		2F5CE59A29EF023500CC2329 /* AboutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CE59929EF023500CC2329 /* AboutModel.swift */; };
+		2F5CE59C29EF05ED00CC2329 /* DarkModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CE59B29EF05ED00CC2329 /* DarkModeViewController.swift */; };
+		2F9B11AA29EE6505007C9B88 /* MusicInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9B11A929EE6505007C9B88 /* MusicInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F04170129EDC91900AEA96A /* MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F04170429EDC91900AEA96A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F04170629EDC91900AEA96A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2F04170829EDC91900AEA96A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2F04170B29EDC91900AEA96A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F04170D29EDC91A00AEA96A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F04171029EDC91A00AEA96A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F04171229EDC91A00AEA96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F04171D29EDC9FA00AEA96A /* MusicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewController.swift; sourceTree = "<group>"; };
+		2F04172029EDCA7300AEA96A /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		2F04172229EDCADF00AEA96A /* Musicitem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Musicitem.swift; sourceTree = "<group>"; };
+		2F5CE58829EE74BE00CC2329 /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		2F5CE58B29EE755C00CC2329 /* MovieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManager.swift; sourceTree = "<group>"; };
+		2F5CE58E29EE7BED00CC2329 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		2F5CE59129EE813700CC2329 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		2F5CE59329EEF8CF00CC2329 /* MovieInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoViewController.swift; sourceTree = "<group>"; };
+		2F5CE59629EF01F100CC2329 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		2F5CE59929EF023500CC2329 /* AboutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutModel.swift; sourceTree = "<group>"; };
+		2F5CE59B29EF05ED00CC2329 /* DarkModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeViewController.swift; sourceTree = "<group>"; };
+		2F9B11A929EE6505007C9B88 /* MusicInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,106 @@
 		2F04170329EDC91900AEA96A /* MovieApp */ = {
 			isa = PBXGroup;
 			children = (
-				2F04170429EDC91900AEA96A /* AppDelegate.swift */,
-				2F04170629EDC91900AEA96A /* SceneDelegate.swift */,
-				2F04170829EDC91900AEA96A /* ViewController.swift */,
-				2F04170A29EDC91900AEA96A /* Main.storyboard */,
+				2F04171F29EDCA6100AEA96A /* Model */,
+				2F04171C29EDC9A100AEA96A /* Controller */,
+				2F04171829EDC94100AEA96A /* Delegates */,
+				2F04171929EDC95300AEA96A /* View */,
 				2F04170D29EDC91A00AEA96A /* Assets.xcassets */,
-				2F04170F29EDC91A00AEA96A /* LaunchScreen.storyboard */,
 				2F04171229EDC91A00AEA96A /* Info.plist */,
 			);
 			path = MovieApp;
+			sourceTree = "<group>";
+		};
+		2F04171829EDC94100AEA96A /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				2F04170429EDC91900AEA96A /* AppDelegate.swift */,
+				2F04170629EDC91900AEA96A /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		2F04171929EDC95300AEA96A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F04170A29EDC91900AEA96A /* Main.storyboard */,
+				2F04170F29EDC91A00AEA96A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F04171C29EDC9A100AEA96A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F5CE59529EF01D700CC2329 /* AboutController */,
+				2F5CE58729EE749D00CC2329 /* MusicController */,
+				2F5CE59029EE7C3F00CC2329 /* MovieController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2F04171F29EDCA6100AEA96A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F5CE59829EF021900CC2329 /* AboutModel */,
+				2F5CE58A29EE754500CC2329 /* MusicModel */,
+				2F5CE58D29EE756000CC2329 /* MovieModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F5CE58729EE749D00CC2329 /* MusicController */ = {
+			isa = PBXGroup;
+			children = (
+				2F04171D29EDC9FA00AEA96A /* MusicTableViewController.swift */,
+				2F9B11A929EE6505007C9B88 /* MusicInfoViewController.swift */,
+			);
+			path = MusicController;
+			sourceTree = "<group>";
+		};
+		2F5CE58A29EE754500CC2329 /* MusicModel */ = {
+			isa = PBXGroup;
+			children = (
+				2F04172029EDCA7300AEA96A /* Music.swift */,
+				2F04172229EDCADF00AEA96A /* Musicitem.swift */,
+			);
+			path = MusicModel;
+			sourceTree = "<group>";
+		};
+		2F5CE58D29EE756000CC2329 /* MovieModel */ = {
+			isa = PBXGroup;
+			children = (
+				2F5CE58B29EE755C00CC2329 /* MovieManager.swift */,
+				2F5CE58E29EE7BED00CC2329 /* Movie.swift */,
+			);
+			path = MovieModel;
+			sourceTree = "<group>";
+		};
+		2F5CE59029EE7C3F00CC2329 /* MovieController */ = {
+			isa = PBXGroup;
+			children = (
+				2F5CE58829EE74BE00CC2329 /* MovieTableViewController.swift */,
+				2F5CE59129EE813700CC2329 /* MovieTableViewCell.swift */,
+				2F5CE59329EEF8CF00CC2329 /* MovieInfoViewController.swift */,
+			);
+			path = MovieController;
+			sourceTree = "<group>";
+		};
+		2F5CE59529EF01D700CC2329 /* AboutController */ = {
+			isa = PBXGroup;
+			children = (
+				2F5CE59629EF01F100CC2329 /* AboutViewController.swift */,
+				2F5CE59B29EF05ED00CC2329 /* DarkModeViewController.swift */,
+			);
+			path = AboutController;
+			sourceTree = "<group>";
+		};
+		2F5CE59829EF021900CC2329 /* AboutModel */ = {
+			isa = PBXGroup;
+			children = (
+				2F5CE59929EF023500CC2329 /* AboutModel.swift */,
+			);
+			path = AboutModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +251,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F04170929EDC91900AEA96A /* ViewController.swift in Sources */,
+				2F5CE59229EE813700CC2329 /* MovieTableViewCell.swift in Sources */,
+				2F5CE59A29EF023500CC2329 /* AboutModel.swift in Sources */,
+				2F5CE59429EEF8CF00CC2329 /* MovieInfoViewController.swift in Sources */,
+				2F5CE58C29EE755C00CC2329 /* MovieManager.swift in Sources */,
 				2F04170529EDC91900AEA96A /* AppDelegate.swift in Sources */,
+				2F5CE58F29EE7BED00CC2329 /* Movie.swift in Sources */,
 				2F04170729EDC91900AEA96A /* SceneDelegate.swift in Sources */,
+				2F5CE59C29EF05ED00CC2329 /* DarkModeViewController.swift in Sources */,
+				2F5CE59729EF01F100CC2329 /* AboutViewController.swift in Sources */,
+				2F04172329EDCADF00AEA96A /* Musicitem.swift in Sources */,
+				2F04171E29EDC9FA00AEA96A /* MusicTableViewController.swift in Sources */,
+				2F9B11AA29EE6505007C9B88 /* MusicInfoViewController.swift in Sources */,
+				2F04172129EDCA7300AEA96A /* Music.swift in Sources */,
+				2F5CE58929EE74BE00CC2329 /* MovieTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +416,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,8 +443,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
